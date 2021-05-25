@@ -1,0 +1,63 @@
+#home{
+	display: flex;
+	padding: 50px;
+	justify-content: space-between;
+	margin: 50px 0 0 0;
+}
+
+.main-heading{
+	font-size: 4em;
+	font-weight: 800;
+}
+
+.p-text{
+	margin: 2em 0 1.5em 0;
+	width: 80%;
+	font-weight: 400;
+	text-align: justify;
+}
+
+.button{
+	a{
+		text-decoration: none;
+		color: $white;
+	}
+	border: 2px solid $white;
+	width: 180px;
+	@include flexCenter();
+	text-transform: uppercase;
+	padding: 10px 15px;
+	letter-spacing: 1px;
+	font-size: 1em;
+	&:hover{
+		a{
+			color: $pink;
+		}
+		border: 2px solid $pink;
+	}
+	
+}
+
+
+@media screen and (max-width : 600px) {
+	body{
+		background-color: #201C34;
+	}
+	.home-img{
+		img{
+			width: 300px;
+		}
+	}
+	.home-text{
+		width: 100%;
+	}
+	#home{
+		padding: 5px;
+	}
+	.main-heading{
+		font-size: 2em;
+	}
+	.container-fluid{
+		padding: 0 20px;
+	}
+}
