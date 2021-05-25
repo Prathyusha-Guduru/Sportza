@@ -70,3 +70,37 @@ input{
 		color: $white;
 	}
 }
+
+@media screen and (max-width : 600px){
+
+	#contactUs{
+		padding: 0;
+		flex-direction: column;
+	}
+	.contactUs-title{
+		justify-content: center;
+		
+		width: 90%;
+		h1{
+		font-size: 2em;
+		justify-content: start;
+		width: 100%;
+		margin: 0;
+		}
+		a{
+			display: none;
+		}
+	}
+	form{
+		padding: 10px 20px;
+	}
+	input{
+		width: 100%;
+		margin: 10px 0 0 0;
+	}
+	.email-section{
+		input{
+			margin:0;
+		}
+	}
+}
