@@ -1,0 +1,36 @@
+
+#features{
+	padding: 50px;
+	margin: 50px 0 0 0;
+}
+
+.feature-wrapper{
+	@include flexCenter();
+}
+.feature-card{
+	@include flexCenter();
+	flex-direction: column;
+	margin: 30px;
+}
+
+.feature-img{
+	margin: 30px 0;
+}
+
+.feature-description{
+	width: 80%;
+	@include flexCenter();
+}
+
+@media screen and (max-width : 600px){
+	.feature-description{
+		font-size: 1em;
+		font-weight: 400;
+	}
+	.feature-img{
+		margin: 20px 0;
+	}
+	#features{
+		margin: 0;
+	}
+}
