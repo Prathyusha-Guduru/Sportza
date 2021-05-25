@@ -21,6 +21,7 @@
 	justify-content: center;
 	font-weight: 900;
 	font-size: 3em;
+	margin: 0 50px;
 }
 
 .step{
@@ -42,5 +43,21 @@
 		img{
 			display: none;
 		}
+	}
+	.section-heading{
+		font-size: 2em;
+		justify-content: start;
+		width: 100%;
+		margin: 0;
+	}
+	.step{
+		margin: 50px 0;
+	}
+	.step-heading{
+		font-size: 1.5em;
+	}
+	.step-description{
+		font-size: 1em;
+		line-height: 1.5em;
 	}
 }
