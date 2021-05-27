@@ -1,5 +1,5 @@
 footer{
-	padding: 20px 150px 20px 150px;
+	padding: 20px 200px 20px 200px;
 	margin: 50px 0 0 0;
 	background-color: #3F3D56;
 	p{
@@ -19,7 +19,6 @@ footer{
 	@include flexCenter();
 	flex-direction: column;
 	align-items: flex-start;
-	// background-color: lightblue;
 	padding: 0 80px;
 }
 
@@ -36,7 +35,7 @@ footer{
 }
 @media screen and (max-width : 600px){
 	footer{
-		padding: 10px;
+		padding: 10px 20px;
 	}
 	.social-links{
 		padding: 10px;

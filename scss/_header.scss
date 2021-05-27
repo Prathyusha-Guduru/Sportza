@@ -3,9 +3,12 @@ header{
 	position: relative;
 }
 
-.navbar-nav{
-	position: absolute;
-	right: 50px;
+
+@media screen and (min-width : 1000px){
+	.navbar-nav{
+		position: absolute;
+		right: 50px;
+	}
 }
 .nav-link{
 	font-weight: 700;
