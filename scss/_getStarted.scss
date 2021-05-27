@@ -2,17 +2,26 @@
 #getStarted{
 	display: flex;
 	padding: 50px;
-	justify-content: space-between;
+	// justify-content: space-between;
+	justify-content: center;
 	margin: 50px 0 0 0;
+	flex-direction: column;
+	// background-color: lightblue;
+}
+
+.getStarted-content{
+	display: flex;
+	justify-content: center;
 	flex-direction: column;
 }
 
 .getStarted-img{
 	display: flex;
-	justify-content: center;
+	justify-content: flex-end;
 	align-items: center;
+	// background-color: lightcoral;
 	img{
-		height: 600px;
+		height: 500px;
 	}
 }
 
@@ -25,20 +34,22 @@
 }
 
 .step{
-	width: 80%;
-	margin: 50px 40px;
+	width: 60%;
+	margin: 30px 100px;
 }
 
 .step-description{
 	font-weight: 400;
-	font-size: 1.5em;
+	font-size: 1.0em;
 	text-align: justify;
 }
 .step-heading{
-	font-weight: 700;
+	font-weight: 500;
+	font-size: 1.5em;
 }
-@media screen and (max-width : 600px){
 
+
+@media screen and (max-width : 600px){
 	.getStarted-img{
 		img{
 			display: none;
@@ -54,7 +65,7 @@
 		margin: 50px 0;
 	}
 	.step-heading{
-		font-size: 1.5em;
+		font-size: 1.0em;
 	}
 	.step-description{
 		font-size: 1em;
