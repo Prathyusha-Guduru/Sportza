@@ -20,6 +20,8 @@
 .feature-description{
 	width: 80%;
 	@include flexCenter();
+	text-align: center;
+	font-size: 1em;
 }
 
 @media screen and (max-width : 600px){

@@ -1,11 +1,20 @@
 header{
 	padding: 10px 50px;
+	position: relative;
+}
+
+.navbar-nav{
+	position: absolute;
+	right: 50px;
 }
 .nav-link{
+	font-weight: 700;
 	color: #fff !important;
 	&:hover{
 		color: $pink !important;
 	}
+	margin: 10px;
+
 }
 
 @media screen and (max-width : 600px){
